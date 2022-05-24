@@ -151,15 +151,16 @@ article {
     margin: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
     main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     }
 
     .hero {
-        background: red;
+        /* background: red; */
         display: flex;
         flex-direction: column;
         height: auto;
