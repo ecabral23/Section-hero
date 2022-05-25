@@ -170,10 +170,85 @@ article {
     .hero-text {
         display: flex;
         align-items: center;
-        width: auto
+        justify-content: center;
+        height: auto;
     }
 
     .p-hero {
-        width: ;
+        display: flex;
+        align-items: center;
+        width: 60%;
     }
+
+    .botones {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /* .btn-insc {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-mas {
+        display: flex;
+    } */
+
+    .hero-img {
+        height: 310px;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .talleres {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .menu-boton {
+        background: red;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .menu-boton span {
+        width: 30px;
+        height: 4px;
+        background: white;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .list-item {
+        display: flex;
+        /* flex-direction: column; */
+        text-align: center;
+        background: salmon;
+        padding: 20px;
+
+    }
+
+    .item {
+    }
+
+    .menu-toggle:checked ~ .list-item {
+        display: block;
+    }
+
+
 }
