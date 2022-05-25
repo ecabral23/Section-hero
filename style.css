@@ -164,7 +164,7 @@ article {
 @media screen and (max-width: 750px) {
     body {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
