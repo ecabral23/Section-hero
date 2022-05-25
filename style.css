@@ -113,6 +113,9 @@ h1 {
     height: 50px;
 }
 
+.menu-toggle {
+    display: none;
+}
 
 .list-item {
     display: flex;
@@ -151,25 +154,26 @@ article {
     margin: 10px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 750px) {
     main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+        display: flex;
     }
 
     .hero {
-        /* background: red; */
         display: flex;
         flex-direction: column;
         height: auto;
         width: auto;
-        margin: auto;
+        max-width: 90%;
     }
 
     .hero-text {
         display: flex;
+        align-items: center;
+        width: auto
+    }
 
+    .p-hero {
+        width: ;
     }
 }
