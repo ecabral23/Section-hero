@@ -227,7 +227,7 @@ article {
         font-size: 1.5rem;
     }
 
-    .menu-boton {
+    /* .menu-boton {
         background: red;
         width: 60px;
         height: 60px;
@@ -253,7 +253,7 @@ article {
     .list-item {
         display: flex;
         /* flex-direction: column; */
-        text-align: center;
+        /* text-align: center;
         background: salmon;
         padding: 20px;
     }
@@ -264,5 +264,5 @@ article {
 
     .menu-boton:checked + .list-item {
         display: block;
-    }
+    } */ */
 }
